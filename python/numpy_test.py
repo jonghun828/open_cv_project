@@ -19,7 +19,7 @@ def main():
     print("a의 크기 : ",a.size)
     print("a 데이터 : ",a)
 
-    imgfile = '/home/kjonghun0828/opencv/open_cv_project/data/lenna.bmp'
+    imgfile = '/home/kjonghun0828/open_cv_project/data/lenna.bmp'
     img = cv2.imread(imgfile)
 
     print('img 자료형 : ', type(img), type(img[0,0]), img.shape, img.ndim, img.size, img.dtype)
